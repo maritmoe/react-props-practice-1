@@ -4,7 +4,7 @@ import NameLength from "./NameLength";
 import NameReversed from "./NameReversed";
 
 function App() {
-  const [name, setName] = useState("Nicolas");
+  const [name] = useState("Nicolas");
 
   return (
     <div className="app">

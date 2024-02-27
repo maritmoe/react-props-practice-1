@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 function NameLength(props) {
   return (
     <p className="name-length">
@@ -5,5 +7,9 @@ function NameLength(props) {
     </p>
   );
 }
+
+NameLength.propTypes = {
+  name: PropTypes.string,
+};
 
 export default NameLength;

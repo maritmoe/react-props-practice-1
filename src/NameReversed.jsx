@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 import { reverse } from "./helpers";
 
 function NameReversed(props) {
@@ -7,5 +9,9 @@ function NameReversed(props) {
     </p>
   );
 }
+
+NameReversed.propTypes = {
+  name: PropTypes.string,
+};
 
 export default NameReversed;
